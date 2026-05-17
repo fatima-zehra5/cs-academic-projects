@@ -18,7 +18,7 @@ between university courses using graph theory and relational mathematics.
 - Outputs sorted conflict-free schedule
 
 ## Sample Output
-====================== University Timetable Conflict Detection===================================================================
+====================== University Timetable Conflict Detection=======================
 Enter number of courses: 3
 Course 1: MTH101 9 11
 Course 2: CS201 10 12
