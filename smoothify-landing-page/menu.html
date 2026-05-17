@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Smoothies – Smoothify</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fff0f5, #ffe4e1, #fdf6f0);
+      color: #3e3e3e;
+      overflow-x: hidden;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: flex-end;
+      padding: 20px 40px;
+      background-color: transparent;
+      position: relative;
+      z-index: 100;
+    }
+
+    .navbar a {
+      margin-left: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #d94c68;
+      transition: color 0.3s ease;
+    }
+
+    .navbar a:hover {
+      color: #ff85a2;
+    }
+
+    .header {
+      text-align: center;
+      padding-top: 40px;
+      margin-bottom: 30px;
+    }
+
+    .header h1 {
+      font-size: 3.5rem;
+      color: #e05263;
+      text-shadow: 1px 1px #fff;
+    }
+
+    .smoothie-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 30px 50px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 15px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      font-size: 1.5rem;
+      color: #e05263;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #d94c68;
+      margin-bottom: 12px;
+      font-size: 1.1rem;
+    }
+
+    .card button {
+      padding: 10px 20px;
+      background-color: #e05263;
+      border: none;
+      border-radius: 12px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .card button:hover {
+      background-color: #ff7f91;
+    }
+
+    @media (max-width: 600px) {
+      .navbar {
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about_contact.html">About Us</a>
+    <a href="about_contact.html">Contact</a>
+  </div>
+
+  <div class="header">
+    <h1>Our Smoothies</h1>
+  </div>
+
+  <div class="smoothie-grid">
+    <div class="card">
+      <img src="images/berry_blast.jpg" alt="Berry Blast">
+      <h3>Berry Blast</h3>
+      <p>Strawberries, blueberries, raspberries — blended to perfection.</p>
+      <p class="price">Price: Rs. 250</p>
+      <button onclick="location.href='menu.html'">Order Now</button>
+    </div>
+
+    <div class="card">
+      <img src="images/kiwi_zing.jpg" alt="Kiwi Zing">
+      <h3>Kiwi Zing</h3>
+      <p>A zesty mix of kiwi and mint to freshen your day.</p>
+      <p class="price">Price: Rs. 220</p>
+      <button onclick="location.href='menu.html'">Order Now</button>
+    </div>
+
+    <div class="card">
+      <img src="images/mango_melt.jpg" alt="Mango Melt">
+      <h3>Mango Melt</h3>
+      <p>Sweet mangoes blended with a splash of creamy yogurt.</p>
+      <p class="price">Price: Rs. 280</p>
+      <button onclick="location.href='menu.html'">Order Now</button>
+    </div>
+
+    <div class="card">
+      <img src="images/peachy_keen.jpg" alt="Peachy Keen">
+      <h3>Peachy Keen</h3>
+      <p>Juicy peaches and banana with a hint of honey.</p>
+      <p class="price">Price: Rs. 240</p>
+      <button onclick="location.href='menu.html'">Order Now</button>
+    </div>
+
+</body>
+</html>
