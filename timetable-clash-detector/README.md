@@ -18,3 +18,25 @@ between university courses using graph theory and relational mathematics.
 - Outputs sorted conflict-free schedule
 
 ## Sample Output
+===== University Timetable Conflict Detection =====
+Enter number of courses: 3
+Course 1: MTH101 9 11
+Course 2: CS201 10 12
+Course 3: ENG301 13 15
+Result: CLASHES DETECTED
+MTH101 and CS201 are clashing (overlapping time slots)
+
+## Tech Stack
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+
+## Concepts Applied
+- Graph Theory
+- Discrete Mathematics
+- Relational Algebra
+- Sorting Algorithms
+- Input Validation
+
+## Files
+- University-Timetable-Conflict-Detector.cpp — Main source code
+- University-Timetable-Conflict-Detector.exe — Compiled executable
+- DS_PROJECT.pptx — Project presentation
