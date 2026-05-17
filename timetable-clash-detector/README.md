@@ -19,11 +19,18 @@ between university courses using graph theory and relational mathematics.
 
 ## Sample Output
 ====================== University Timetable Conflict Detection=======================
+
+
 Enter number of courses: 3
+
 Course 1: MTH101 9 11
+
 Course 2: CS201 10 12
+
 Course 3: ENG301 13 15
+
 Result: CLASHES DETECTED
+
 MTH101 and CS201 are clashing (overlapping time slots)
 
 ## Tech Stack
