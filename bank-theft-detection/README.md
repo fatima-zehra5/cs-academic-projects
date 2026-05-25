@@ -9,19 +9,6 @@ using Object-Oriented Programming principles.
 - Inheritance and polymorphism implementation
 - Encapsulation of security logic
 
-## How It Works
-- System monitors access attempts
-- Triggers alert on unauthorized entry detection
-- Uses OOP principles for clean, modular code structure
-- Demonstrates real-world application of inheritance and encapsulation
-
-## Sample Output
-```
-===== Bank Theft Detection System =====
-Monitoring active...
-ALERT: Unauthorized access detected!
-Security triggered — Alert sent.
-```
 
 ## Tech Stack
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
@@ -34,8 +21,34 @@ Security triggered — Alert sent.
 - Abstraction
 - Security Logic Design
 
+
 ## Files
-- Bank_Theft_Detection.cpp — Main source code
+- BTDS(project).cpp — Full source code
+
+## How It Works
+- Menu-driven console interface
+- Login with PIN — locks after 3 failed attempts
+- Withdrawal checks: amount, location, and time rules
+- Custom FraudException class for all security alerts
+
+## Sample Output
+=== Bank Theft Detection System (BTDS) ===
+
+Account Holder: Aina
+Balance: 90000
+
+Login
+Withdraw (simulate transaction)
+Show Account Info
+Exit
+
+## OOP Concepts Demonstrated
+- Inheritance: Account → SavingAccount → HighSecurityAccount
+- Polymorphism: virtual withdraw() and showInfo()
+- Encapsulation: private balance and PIN
+- Exception Handling: custom FraudException class
+- Function Overloading: SecurityEngine detect() method
+- Static member: Account::totalAccounts
 
 ## Academic Context
 Developed as part of BSCS coursework at Muhammad Ali Jinnah
